@@ -16,6 +16,8 @@ namespace TicTacToe2Okno
         private Profile profile;
         private GraKomputer gra;
         private bool nastepnyGracz;
+        private Gra gra1;
+        private bool nastepnyGracz2;
 
         public CzyNastepnaRundaKomputerForm()
         {
@@ -29,6 +31,15 @@ namespace TicTacToe2Okno
             this.profile = profile;
             this.gra = gra;
             this.nastepnyGracz = nastepnyGracz;
+        }
+
+        public CzyNastepnaRundaKomputerForm(Rundy runda, Profile profile, Gra gra1, bool nastepnyGracz2)
+        {
+            // TODO: Complete member initialization
+            this.runda = runda;
+            this.profile = profile;
+            this.gra1 = gra1;
+            this.nastepnyGracz2 = nastepnyGracz2;
         }
     }
 }
