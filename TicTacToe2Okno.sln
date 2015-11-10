@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe2Okno", "TicTacToe2Okno\TicTacToe2Okno.csproj", "{D6481D64-7ED3-48FB-B851-7C00751B3097}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sokoban", "..\Sokoban_KCK_okienko-master\Sokoban_KCK_okienko-master\Sokoban\Sokoban\Sokoban.csproj", "{0D77CD4B-4C3D-4B90-BC49-768D4E880EE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{D6481D64-7ED3-48FB-B851-7C00751B3097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6481D64-7ED3-48FB-B851-7C00751B3097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6481D64-7ED3-48FB-B851-7C00751B3097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D77CD4B-4C3D-4B90-BC49-768D4E880EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D77CD4B-4C3D-4B90-BC49-768D4E880EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D77CD4B-4C3D-4B90-BC49-768D4E880EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D77CD4B-4C3D-4B90-BC49-768D4E880EE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
