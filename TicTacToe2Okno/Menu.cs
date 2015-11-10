@@ -19,7 +19,7 @@ namespace TicTacToe2Okno
         private Kontrolka kontrolkaExit;
         private Bitmap pngLogo;
         private PictureBox logo;
-        SoundPlayer typewriter;
+        //SoundPlayer typewriter;
 
         public Menu()
         {
@@ -39,7 +39,7 @@ namespace TicTacToe2Okno
             logo.Height = pngLogo.Height;
             logo.Location = new Point(250, 20);
 
-            kontrolkaNowaGraKomputer = new Kontrolka(@"Buttons\MenuButtons\NewGameNormal.png", @"Buttons\MenuButtons\NewGamePress.png", @"Buttons\MenuButtons\NewGameFocus.png", 450, 350, "NewGameTag");
+            kontrolkaNowaGraKomputer = new Kontrolka(@"Buttons\MenuButtons\NewGameNormal.png", @"Buttons\MenuButtons\NewGamePress.png", @"Buttons\MenuButtons\NewGameFocus.png", 450, 350, "NewGameComputerTag");
             kontrolkaNowaGraGracz = new Kontrolka(@"Buttons\MenuButtons\NewGameNormal.png", @"Buttons\MenuButtons\NewGamePress.png", @"Buttons\MenuButtons\NewGameFocus.png", 450, 450, "NewGameTag");
             kontrolkaRanking = new Kontrolka(@"Buttons\MenuButtons\RankingNormal.png", @"Buttons\MenuButtons\RankingPress.png", @"Buttons\MenuButtons\RankingFocus.png", 480, 550, "RankingTag");
             kontrolkaExit = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 650, "ExitTag");
@@ -77,11 +77,19 @@ namespace TicTacToe2Okno
                         Application.Exit();
                         break;
 
-                    case "NewGameTag":
+                    case "NewGameComputerTag":
 
-                        Game newGame = new Game();
+                        GraKomputer newGame = new GraKomputer();
                         newGame.Tag = this;
                         newGame.Show(this);
+                        this.Hide();
+                        break;
+
+                    case "NewGameTag":
+
+                        GraGracz newGame2 = new GraGracz();
+                        newGame2.Tag = this;
+                        newGame2.Show(this);
                         this.Hide();
                         break;
                 }
