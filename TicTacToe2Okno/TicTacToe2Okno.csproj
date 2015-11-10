@@ -45,6 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AktualnyCzas.cs" />
+    <Compile Include="CzyNastepnaRundaKomputerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CzyNastepnaRundaKomputerForm.Designer.cs">
+      <DependentUpon>CzyNastepnaRundaKomputerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gra.cs" />
     <Compile Include="GraGraczForm.cs">
       <SubType>Form</SubType>

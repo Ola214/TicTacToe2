@@ -14,9 +14,13 @@ namespace TicTacToe2Okno
         private Bitmap wcisnieta;
         private Bitmap fokus;
         private Boolean flagDown = false;
+        private int pozycjaX;
+        private int pozycjaY;
 
         public Kontrolka(String sciezkaDoZwykly, String sciezkaDoWcisniety, String sciezkaDoFokus, int pozycjaX, int pozycjaY, String etykieta)
         {
+            this.pozycjaX = pozycjaX;
+            this.pozycjaY = pozycjaY;
             zwykla = new Bitmap(sciezkaDoZwykly);
             wcisnieta = new Bitmap(sciezkaDoWcisniety);
             fokus = new Bitmap(sciezkaDoFokus);
@@ -62,6 +66,16 @@ namespace TicTacToe2Okno
         private void mouseLeave(object sender, EventArgs e)
         {
             Image = zwykla;
+        }
+
+        public int getPozycjaX()
+        {
+            return pozycjaX;
+        }
+
+        public int getPozycjaY()
+        {
+            return pozycjaY;
         }
     }
 }
