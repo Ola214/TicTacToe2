@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TicTacToe2Okno
 {
-    public partial class GraGracz : Form
+    public partial class GraGraczForm : Form
     {
-        public GraGracz()
+        public GraGraczForm()
         {
             InitializeComponent();
         }

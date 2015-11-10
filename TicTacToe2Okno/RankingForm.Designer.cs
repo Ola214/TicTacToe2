@@ -1,6 +1,6 @@
 ﻿namespace TicTacToe2Okno
 {
-    partial class Ranking
+    partial class RankingForm
     {
         /// <summary>
         /// Required designer variable.

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TicTacToe2Okno
 {
-    public partial class Ranking : Form
+    public partial class RankingForm : Form
     {
-        public Ranking()
+        public RankingForm()
         {
             InitializeComponent();
         }

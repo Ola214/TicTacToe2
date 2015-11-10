@@ -1,6 +1,6 @@
 ﻿namespace TicTacToe2Okno
 {
-    partial class GraKomputer
+    partial class GraGraczForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "GraKomputer";
+            this.Text = "GraGracz";
         }
 
         #endregion

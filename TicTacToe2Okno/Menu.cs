@@ -12,7 +12,7 @@ namespace TicTacToe2Okno
 {
     public partial class Menu : Form
     {
-        Ranking ranking;
+        RankingForm ranking;
         private Kontrolka kontrolkaNowaGraKomputer;
         private Kontrolka kontrolkaNowaGraGracz;
         private Kontrolka kontrolkaRanking;
@@ -66,7 +66,7 @@ namespace TicTacToe2Okno
                     case "RankingTag":
                         if (ranking == null)
                         {
-                            ranking = new Ranking();
+                            ranking = new RankingForm();
                             ranking.Tag = this;
                         }
                         ranking.Show(this);
@@ -79,17 +79,17 @@ namespace TicTacToe2Okno
 
                     case "NewGameComputerTag":
 
-                        GraKomputer newGame = new GraKomputer();
-                        newGame.Tag = this;
-                        newGame.Show(this);
+                        GraKomputerForm graKomputer = new GraKomputerForm();
+                        graKomputer.Tag = this;
+                        graKomputer.Show(this);
                         this.Hide();
                         break;
 
                     case "NewGameTag":
 
-                        GraGracz newGame2 = new GraGracz();
-                        newGame2.Tag = this;
-                        newGame2.Show(this);
+                        GraGraczForm graGracz = new GraGraczForm();
+                        graGracz.Tag = this;
+                        graGracz.Show(this);
                         this.Hide();
                         break;
                 }
