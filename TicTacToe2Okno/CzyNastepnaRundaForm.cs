@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace TicTacToe2Okno
 {
-    public partial class CzyNastepnaRundaKomputerForm : Form
+    public partial class CzyNastepnaRundaForm : Form
     {
         private Rundy runda;
         private Profile profile;
-        private GraKomputer gra;
+        private Gra gra;
         private bool nastepnyGracz;
-        private Gra gra1;
-        private bool nastepnyGracz2;
 
-        public CzyNastepnaRundaKomputerForm()
+        public CzyNastepnaRundaForm()
         {
             InitializeComponent();
         }
 
-        public CzyNastepnaRundaKomputerForm(Rundy runda, Profile profile, GraKomputer gra, bool nastepnyGracz)
+        public CzyNastepnaRundaForm(Rundy runda, Profile profile, Gra gra, bool nastepnyGracz)
         {
             // TODO: Complete member initialization
             this.runda = runda;
@@ -32,7 +30,5 @@ namespace TicTacToe2Okno
             this.gra = gra;
             this.nastepnyGracz = nastepnyGracz;
         }
-
-
     }
 }

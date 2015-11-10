@@ -51,6 +51,12 @@
     <Compile Include="CzyNastepnaRundaKomputerForm.Designer.cs">
       <DependentUpon>CzyNastepnaRundaKomputerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CzyNastepnaRundaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CzyNastepnaRundaForm.Designer.cs">
+      <DependentUpon>CzyNastepnaRundaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gra.cs" />
     <Compile Include="GraGraczForm.cs">
       <SubType>Form</SubType>

@@ -146,7 +146,7 @@ namespace TicTacToe2Okno
             if (gra.wygrana() != 0)
             {
 
-                CzyNastepnaRundaKomputerForm czyNastepnaRundaKomputer = new CzyNastepnaRundaKomputerForm(runda, profile, gra, nastepnyGracz);
+                CzyNastepnaRundaForm czyNastepnaRundaKomputer = new CzyNastepnaRundaForm(runda, profile, gra, nastepnyGracz);
                 czyNastepnaRundaKomputer.Tag = this;
                 czyNastepnaRundaKomputer.Show(this);
                 this.Hide();
