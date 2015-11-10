@@ -7,3 +7,4 @@ D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Ok
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.csproj.GenerateResource.Cache
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.exe
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.pdb
+D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.csprojResolveAssemblyReference.cache

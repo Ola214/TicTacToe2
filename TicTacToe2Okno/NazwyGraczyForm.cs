@@ -21,6 +21,8 @@ namespace TicTacToe2Okno
         private TextBox user2Box;
         Gra gra;
         Profile pro;
+        private Bitmap pngLogo;
+        private PictureBox logo;
 
         public NazwyGraczyForm()
         {
@@ -31,25 +33,34 @@ namespace TicTacToe2Okno
 
             InitializeComponent();
 
+            logo = new PictureBox();
+            pngLogo = new Bitmap(@"Drawable\logoMsg.png");
+            logo.BackColor = Color.Transparent;
+            logo.Image = pngLogo;
+            logo.Width = pngLogo.Width;
+            logo.Height = pngLogo.Height;
+            logo.Location = new Point(250, 20);
+
             gra = new Gra();
             pro = new Profile();
 
-            kontrolkaUser1 = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", 200, 150, "ExitTag");
+            kontrolkaUser1 = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", 200, 200, "ExitTag");
             user1Box = new TextBox();
-            user1Box.Location = new Point(540,150);
+            user1Box.Location = new Point(540,200);
             user1Box.AutoSize = false;
             user1Box.Size = new Size(600, kontrolkaUser1.Height);
             user1Box.Font = new Font(user1Box.Font.FontFamily, 32);
-            kontrolkaUser2 = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", 200, 250, "ExitTag");
+            kontrolkaUser2 = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitNormal.png", 200, 300, "ExitTag");
             user2Box = new TextBox();
-            user2Box.Location = new Point(540, 250);
+            user2Box.Location = new Point(540, 300);
             user2Box.AutoSize = false;
             user2Box.Size = new Size(600, kontrolkaUser1.Height);
             user2Box.Font = new Font(user2Box.Font.FontFamily, 32);
-            kontrolkaConfirm = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 350, "ConfirmTag");
-            kontrolkaMenu = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 450, "MenuTag");
-            kontrolkaExit = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 550, "ExitTag");
+            kontrolkaConfirm = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 400, "ConfirmTag");
+            kontrolkaMenu = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 500, "MenuTag");
+            kontrolkaExit = new Kontrolka(@"Buttons\MenuButtons\ExitNormal.png", @"Buttons\MenuButtons\ExitPress.png", @"Buttons\MenuButtons\ExitFocus.png", 540, 600, "ExitTag");
 
+            this.Controls.Add(logo);
             this.Controls.Add(kontrolkaUser1);
             this.Controls.Add(kontrolkaUser2);
             this.Controls.Add(kontrolkaConfirm);
