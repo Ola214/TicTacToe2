@@ -1,8 +1,9 @@
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\bin\Debug\TicTacToe2Okno.exe.config
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\bin\Debug\TicTacToe2Okno.exe
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\bin\Debug\TicTacToe2Okno.pdb
-D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.csprojResolveAssemblyReference.cache
+D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.Menu.resources
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.Properties.Resources.resources
+D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.RankingForm.resources
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.csproj.GenerateResource.Cache
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.exe
 D:\Informatyka\Semestr5\KCK\TicTacToe2Okno\TicTacToe2Okno\obj\Debug\TicTacToe2Okno.pdb

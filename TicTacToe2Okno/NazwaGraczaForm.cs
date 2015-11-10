@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace TicTacToe2Okno
 {
-    public partial class RankingForm : Form
+    public partial class NazwaGraczaForm : Form
     {
-        public RankingForm()
+        public NazwaGraczaForm()
         {
             InitializeComponent();
-        }
-
-        private void RankingForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

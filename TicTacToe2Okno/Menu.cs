@@ -79,7 +79,7 @@ namespace TicTacToe2Okno
 
                     case "NewGameComputerTag":
 
-                        GraKomputerForm graKomputer = new GraKomputerForm();
+                        NazwaGraczaForm graKomputer = new NazwaGraczaForm();
                         graKomputer.Tag = this;
                         graKomputer.Show(this);
                         this.Hide();
@@ -87,7 +87,7 @@ namespace TicTacToe2Okno
 
                     case "NewGameTag":
 
-                        GraGraczForm graGracz = new GraGraczForm();
+                        NazwyGraczyForm graGracz = new NazwyGraczyForm();
                         graGracz.Tag = this;
                         graGracz.Show(this);
                         this.Hide();
@@ -95,5 +95,12 @@ namespace TicTacToe2Okno
                 }
             }
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

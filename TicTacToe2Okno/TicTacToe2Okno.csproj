@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AktualnyCzas.cs" />
     <Compile Include="Gra.cs" />
     <Compile Include="GraGraczForm.cs">
       <SubType>Form</SubType>
@@ -67,6 +68,18 @@
     <Compile Include="Kontrolka.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="NazwaGraczaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NazwaGraczaForm.Designer.cs">
+      <DependentUpon>NazwaGraczaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NazwyGraczyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NazwyGraczyForm.Designer.cs">
+      <DependentUpon>NazwyGraczyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Plansza.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Program.cs" />
@@ -80,6 +93,9 @@
     <Compile Include="Rundy.cs" />
     <Compile Include="StartGame.cs" />
     <Compile Include="Wyjatek.cs" />
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -89,6 +105,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RankingForm.resx">
+      <DependentUpon>RankingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

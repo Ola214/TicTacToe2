@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicTacToe2Okno
 {
-    class Rundy
+    public class Rundy
     {
         protected int licznikKolko = 0;
         protected int licznikKrzyzyk = 0;

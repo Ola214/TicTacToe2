@@ -12,9 +12,19 @@ namespace TicTacToe2Okno
 {
     public partial class GraGraczForm : Form
     {
-        public GraGraczForm()
+        Rundy runda;
+        Gra gra;
+        Boolean nastepnyGracz;
+        int wynik;
+        Profile profile;
+
+        public GraGraczForm(Rundy runda, Profile profile, Gra gra, Boolean nastepnyGracz)
         {
             InitializeComponent();
+            this.runda = runda;
+            this.gra = gra;
+            this.nastepnyGracz = nastepnyGracz;
+            this.profile = profile;
         }
     }
 }

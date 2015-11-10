@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicTacToe2Okno
 {
-    class Plansza
+    public class Plansza
     {
         public int[,] d = new int[3, 3];
 

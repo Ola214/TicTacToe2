@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicTacToe2Okno
 {
-    class Profile
+    public class Profile
     {
         public String gracz1;// string gracz1;
         public String gracz2; //string
